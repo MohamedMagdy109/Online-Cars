@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:khaledCars/stateless/aboutUS.dart';
+import 'package:khaledCars/stateless/notifications.dart';
+import 'package:khaledCars/stateless/profile.dart';
 import 'package:khaledCars/stateless/splashScreen.dart';
 
 void main() {
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: splashScreen(),
+      home: profile(),
     );
   }
 }

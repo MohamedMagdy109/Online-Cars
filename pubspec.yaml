@@ -32,6 +32,7 @@ dependencies:
   page_transition:
   simple_animations: 
   # auto_size_text_pk: ^2.0.0
+  sizer:
 
 dev_dependencies:
   flutter_test:
